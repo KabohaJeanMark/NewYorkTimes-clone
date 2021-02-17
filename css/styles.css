@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Benne&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
 
 /* General styling */
 body {
@@ -161,10 +162,34 @@ iframe {
   border: 0;
 }
 
+aside {
+  border-top: 1px solid #000;
+  margin: 0 auto;
+  max-width: 60%;
+  font-family: 'Newsreader', serif;
+}
+
+.figcaption-1 {
+  font-size: 0.7rem;
+  text-align: right;
+  color: rgb(128, 128, 128);
+}
+
+.figcaption-2 {
+  font-size: 1rem;
+  color: #000;
+}
+
+.figcaption-3 {
+  font-size: 0.8rem;
+  color: rgb(128, 128, 128);
+}
+
 /* Styling of floating aside */
 .floating-image {
   float: left;
-  max-width: 23%;
+  max-width: 25%;
+  margin-right: 0.6rem;
 }
 
 /* Styling the footer section */
