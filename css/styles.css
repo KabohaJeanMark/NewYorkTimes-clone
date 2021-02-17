@@ -162,10 +162,74 @@ iframe {
   border: 0;
 }
 
+/* Suggested newsletter section */
+
+.float-container {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.newsletter-float {
+  float: left;
+  height: 80vh;
+  width: 70%;
+  border-top: 1px solid #000;
+}
+
+.suggested-newsletter {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 70vh;
+  width: 100%;
+}
+
+.newsletter-item {
+  max-width: 98%;
+}
+
+.most-popular {
+  float: right;
+  height: 110vh;
+  width: 28%;
+  border-top: 1px solid #000;
+}
+
+.most-popular-container {
+  height: 100vh;
+}
+
+.popular-item {
+  height: 10vh;
+  text-align: left;
+  border-bottom: 1px solid #000;
+  display: flex;
+  align-items: center;
+}
+
+footer a {
+  display: inline-block;
+}
+
+.most-popular-container a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+  line-height: 1;
+  font-family: 'Newsreader', serif;
+}
+
+.most-popular-container a:hover {
+  color: rgb(128, 128, 128);
+}
+
+.editor-picks-floating-container {
+  float: left;
+  width: 72%;
+}
+
 aside {
   border-top: 1px solid #000;
-  margin: 0 auto;
-  max-width: 60%;
+  max-width: 100%;
   font-family: 'Newsreader', serif;
 }
 
@@ -188,17 +252,13 @@ aside {
 /* Styling of floating aside */
 .floating-image {
   float: left;
-  max-width: 25%;
+  max-width: 30%;
   margin-right: 0.6rem;
 }
 
 /* Styling the footer section */
 footer {
   clear: both;
-}
-
-footer a {
-  display: inline-block;
 }
 
 .grid-container {
