@@ -28,6 +28,11 @@ nav button {
   padding: 0.5rem;
 }
 
+#landing {
+  margin: 0 auto;
+  max-width: 70%;
+}
+
 .container {
   margin: 0 auto;
   max-width: 50%;
