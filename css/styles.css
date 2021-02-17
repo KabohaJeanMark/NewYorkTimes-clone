@@ -56,9 +56,18 @@ nav button {
 }
 
 .social-media .fab,
-.fas {
-  color: grey;
+.fas,
+.far {
+  color: rgb(128, 128, 128);
   margin-right: 0.2rem;
+}
+
+.fa-search {
+  margin: 0 1rem;
+}
+
+.fa-list {
+  margin: 0 1rem;
 }
 
 /* End of header section */
@@ -120,4 +129,8 @@ footer a {
 
 .grid-container a:hover {
   text-decoration: underline;
+}
+
+.footer-bottom {
+  color: rgb(128, 128, 128);
 }
