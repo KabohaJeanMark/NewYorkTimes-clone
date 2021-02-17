@@ -88,6 +88,73 @@ article {
   text-align: justify;
 }
 
+/* Styling of background image with images ontop of it */
+.figure-with-images {
+  position: relative;
+}
+
+.small-grey,
+.figure-with-images p {
+  font-size: 0.8rem;
+  color: rgb(128, 128, 128);
+}
+
+.position-1 {
+  position: absolute;
+  top: 32%;
+  left: 2%;
+  width: 24%;
+}
+
+.position-2 {
+  position: absolute;
+  top: 32%;
+  left: 26%;
+  width: 24%;
+}
+
+.position-3 {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  width: 24%;
+}
+
+.position-4 {
+  position: absolute;
+  top: 32%;
+  left: 75%;
+  width: 24%;
+}
+
+.position-5 {
+  position: absolute;
+  top: 75%;
+  left: 2%;
+  width: 23%;
+}
+
+.position-6 {
+  position: absolute;
+  top: 75%;
+  left: 26%;
+  width: 23%;
+}
+
+.position-7 {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  width: 23%;
+}
+
+.position-8 {
+  position: absolute;
+  top: 75%;
+  left: 75%;
+  width: 23%;
+}
+
 /* YouTube iframe embedded styling */
 iframe {
   margin: 0 auto;
