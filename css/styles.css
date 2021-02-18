@@ -30,6 +30,15 @@ nav button {
   padding: 0.5rem;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.underline-link:hover {
+  text-decoration: underline;
+}
+
 #landing {
   margin: 0 auto;
   max-width: 70%;
