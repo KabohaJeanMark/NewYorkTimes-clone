@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* General styling */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 5vh;
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+}
+
+nav button {
+  background-color: rgb(21, 113, 136);
+  color: #fff;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.underline-link:hover {
+  text-decoration: underline;
+}
+
+#landing {
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+.heading {
+  margin: 10vh auto 0.5vh;
+  padding: 0.1rem;
+  max-width: 60%;
+  border-bottom: 1px solid #000;
+}
+
+.heading h1 {
+  font-size: 3rem;
+  font-family: 'Benne', serif;
+}
+
+.social-media {
+  margin: 0.2rem auto;
+  padding: 0.2rem;
+  max-width: 60%;
+}
+
+.social-media .fab,
+.fas,
+.far {
+  color: rgb(128, 128, 128);
+  margin-right: 0.2rem;
+}
+
+.fa-search {
+  margin: 0 1rem;
+}
+
+.fa-list {
+  margin: 0 1rem;
+}
+
+/* End of header section */
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+figcaption {
+  color: grey;
+}
+
+article {
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+/* Styling of background image with images ontop of it */
+.figure-with-images {
+  position: relative;
+}
+
+.small-grey,
+.figure-with-images p {
+  font-size: 0.7rem;
+  color: rgb(128, 128, 128);
+}
+
+.position-1 {
+  position: absolute;
+  top: 35%;
+  left: 2%;
+  width: 24%;
+}
+
+.position-2 {
+  position: absolute;
+  top: 35%;
+  left: 26%;
+  width: 24%;
+}
+
+.position-3 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  width: 24%;
+}
+
+.position-4 {
+  position: absolute;
+  top: 35%;
+  left: 75%;
+  width: 24%;
+}
+
+.position-5 {
+  position: absolute;
+  top: 75%;
+  left: 2%;
+  width: 23%;
+}
+
+.position-6 {
+  position: absolute;
+  top: 75%;
+  left: 26%;
+  width: 23%;
+}
+
+.position-7 {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  width: 23%;
+}
+
+.position-8 {
+  position: absolute;
+  top: 75%;
+  left: 75%;
+  width: 23%;
+}
+
+/* YouTube iframe embedded styling */
+iframe {
+  margin: 0 auto;
+  border: 0;
+}
+
+/* Suggested newsletter section */
+
+.float-container {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.newsletter-float {
+  float: left;
+  height: 80vh;
+  width: 70%;
+  border-top: 1px solid #000;
+}
+
+.suggested-newsletter {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 70vh;
+  width: 100%;
+}
+
+.newsletter-item {
+  max-width: 98%;
+}
+
+.most-popular {
+  float: right;
+  height: 110vh;
+  width: 28%;
+  border-top: 1px solid #000;
+}
+
+.most-popular-container {
+  height: 100vh;
+}
+
+.popular-item {
+  height: 10vh;
+  text-align: left;
+  border-bottom: 1px solid #000;
+  display: flex;
+  align-items: center;
+}
+
+footer a {
+  display: inline-block;
+}
+
+.editor-picks-floating-container {
+  float: left;
+  width: 72%;
+}
+
+aside {
+  border-top: 1px solid #000;
+  max-width: 100%;
+  font-family: 'Newsreader', serif;
+}
+
+.figcaption-1 {
+  font-size: 0.7rem;
+  text-align: right;
+  color: rgb(128, 128, 128);
+}
+
+.figcaption-2 {
+  font-size: 1rem;
+  color: #000;
+}
+
+.figcaption-3 {
+  font-size: 0.8rem;
+  color: rgb(128, 128, 128);
+}
+
+/* Styling of floating aside */
+.floating-image {
+  float: left;
+  max-width: 30%;
+  margin-right: 0.6rem;
+}
+
+/* Styling the footer section */
+footer {
+  clear: both;
+  margin-top: 4rem;
+  padding-top: 2rem;
+}
+
+.footer-container {
+  border-top: 1px double rgb(128, 128, 128);
+  margin-top: 1rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.flex-vertically {
+  display: flex;
+  flex-direction: column;
+  max-width: 18%;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid rgb(167, 162, 162);
+  padding-left: 0.8rem;
+  max-width: 15%;
+}
+
+.subscribe-1 {
+  font-weight: bold;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.subscribe-1 a {
+  display: inline-block;
+}
+
+.most-popular-container a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+  line-height: 1;
+  font-family: 'Newsreader', serif;
+}
+
+.flex-vertically a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-heading {
+  font-weight: bold;
+}
+
+.subscribe-2,
+.subscribe-3 {
+  font-size: 0.8rem;
+  padding: 0.5rem 0;
+}
+
+.subscribe-3 {
+  border-top: 0.5px solid #000;
+}
+
+.footer-bottom {
+  color: rgb(128, 128, 128);
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  color: rgb(128, 128, 128);
+  font-size: 0.6rem;
+  margin: 1rem 0.2rem;
+  padding: 0.8rem 0.1rem;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.flex-container a:hover {
+  text-decoration: underline;
+}
+
+.most-popular-container a:hover {
+  color: rgb(128, 128, 128);
+}
+
+/* Media Queries for Responsive Design on Section for figure with images */
+@media (max-width: 1440px) {
+  .figure-with-images p {
+    font-size: 0.6rem;
+  }
+
+  .position-1 {
+    position: absolute;
+    top: 42%;
+    left: 2%;
+    width: 24%;
+  }
+
+  .position-2 {
+    position: absolute;
+    top: 42%;
+    left: 26%;
+    width: 24%;
+  }
+
+  .position-3 {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    width: 24%;
+  }
+
+  .position-4 {
+    position: absolute;
+    top: 42%;
+    left: 75%;
+    width: 24%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .figure-with-images p {
+    font-size: 0.3rem;
+  }
+
+  .position-1 {
+    position: absolute;
+    top: 42%;
+    left: 2%;
+    width: 24%;
+  }
+
+  .position-2 {
+    position: absolute;
+    top: 42%;
+    left: 26%;
+    width: 24%;
+  }
+
+  .position-3 {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    width: 24%;
+  }
+
+  .position-4 {
+    position: absolute;
+    top: 42%;
+    left: 75%;
+    width: 24%;
+  }
+}
+
+@media (max-width: 900px) {
+  .figure-with-images p {
+    font-size: 0.2rem;
+  }
+
+  .position-1 {
+    position: absolute;
+    top: 42%;
+    left: 2%;
+    width: 24%;
+  }
+
+  .position-2 {
+    position: absolute;
+    top: 42%;
+    left: 26%;
+    width: 24%;
+  }
+
+  .position-3 {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    width: 24%;
+  }
+
+  .position-4 {
+    position: absolute;
+    top: 42%;
+    left: 75%;
+    width: 24%;
+  }
+}
+
+@media (max-width: 700px) {
+  .figure-with-images p {
+    font-size: 0.1rem;
+  }
+
+  .position-1 {
+    position: absolute;
+    top: 42%;
+    left: 2%;
+    width: 24%;
+  }
+
+  .position-2 {
+    position: absolute;
+    top: 42%;
+    left: 26%;
+    width: 24%;
+  }
+
+  .position-3 {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    width: 24%;
+  }
+
+  .position-4 {
+    position: absolute;
+    top: 42%;
+    left: 75%;
+    width: 24%;
+  }
+}
