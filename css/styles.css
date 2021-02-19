@@ -110,60 +110,49 @@ article {
   color: rgb(128, 128, 128);
 }
 
-.position-1 {
+.position-div {
   position: absolute;
-  top: 35%;
-  left: 2%;
   width: 24%;
+}
+
+.position-up {
+  top: 38%;
+}
+
+.position-down {
+  top: 75%;
+}
+
+.position-1 {
+  left: 2%;
 }
 
 .position-2 {
-  position: absolute;
-  top: 35%;
   left: 26%;
-  width: 24%;
 }
 
 .position-3 {
-  position: absolute;
-  top: 35%;
   left: 50%;
-  width: 24%;
 }
 
 .position-4 {
-  position: absolute;
-  top: 35%;
   left: 75%;
-  width: 24%;
 }
 
 .position-5 {
-  position: absolute;
-  top: 75%;
   left: 2%;
-  width: 23%;
 }
 
 .position-6 {
-  position: absolute;
-  top: 75%;
   left: 26%;
-  width: 23%;
 }
 
 .position-7 {
-  position: absolute;
-  top: 75%;
   left: 50%;
-  width: 23%;
 }
 
 .position-8 {
-  position: absolute;
-  top: 75%;
   left: 75%;
-  width: 23%;
 }
 
 /* YouTube iframe embedded styling */
@@ -348,138 +337,48 @@ footer {
 }
 
 /* Media Queries for Responsive Design on Section for figure with images */
-@media (max-width: 1440px) {
-  .figure-with-images p {
-    font-size: 0.6rem;
-  }
 
-  .position-1 {
-    position: absolute;
-    top: 42%;
-    left: 2%;
-    width: 24%;
-  }
-
-  .position-2 {
-    position: absolute;
-    top: 42%;
-    left: 26%;
-    width: 24%;
-  }
-
-  .position-3 {
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    width: 24%;
-  }
-
-  .position-4 {
-    position: absolute;
-    top: 42%;
-    left: 75%;
-    width: 24%;
-  }
-}
-
-@media (max-width: 1200px) {
+/* Small Laptop Screen */
+@media (max-width: 1024px) {
   .figure-with-images p {
     font-size: 0.3rem;
   }
 
-  .position-1 {
-    position: absolute;
+  .position-up {
     top: 42%;
-    left: 2%;
-    width: 24%;
   }
 
-  .position-2 {
-    position: absolute;
-    top: 42%;
-    left: 26%;
-    width: 24%;
-  }
-
-  .position-3 {
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    width: 24%;
-  }
-
-  .position-4 {
-    position: absolute;
-    top: 42%;
-    left: 75%;
-    width: 24%;
+  .position-down {
+    top: 78%;
   }
 }
 
+/* Small Laptop Screen when window size is made smaller */
 @media (max-width: 900px) {
   .figure-with-images p {
     font-size: 0.2rem;
   }
 
-  .position-1 {
-    position: absolute;
-    top: 42%;
-    left: 2%;
-    width: 24%;
+  .position-up {
+    top: 45%;
   }
 
-  .position-2 {
-    position: absolute;
-    top: 42%;
-    left: 26%;
-    width: 24%;
-  }
-
-  .position-3 {
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    width: 24%;
-  }
-
-  .position-4 {
-    position: absolute;
-    top: 42%;
-    left: 75%;
-    width: 24%;
+  .position-down {
+    top: 80%;
   }
 }
 
-@media (max-width: 700px) {
+/* Tablet Screen */
+@media (max-width: 768px) {
   .figure-with-images p {
     font-size: 0.1rem;
   }
 
-  .position-1 {
-    position: absolute;
-    top: 42%;
-    left: 2%;
-    width: 24%;
+  .position-up {
+    top: 48%;
   }
 
-  .position-2 {
-    position: absolute;
-    top: 42%;
-    left: 26%;
-    width: 24%;
-  }
-
-  .position-3 {
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    width: 24%;
-  }
-
-  .position-4 {
-    position: absolute;
-    top: 42%;
-    left: 75%;
-    width: 24%;
+  .position-down {
+    top: 83%;
   }
 }
