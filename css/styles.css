@@ -106,34 +106,34 @@ article {
 
 .small-grey,
 .figure-with-images p {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   color: rgb(128, 128, 128);
 }
 
 .position-1 {
   position: absolute;
-  top: 42%;
+  top: 38%;
   left: 2%;
   width: 24%;
 }
 
 .position-2 {
   position: absolute;
-  top: 42%;
+  top: 38%;
   left: 26%;
   width: 24%;
 }
 
 .position-3 {
   position: absolute;
-  top: 42%;
+  top: 38%;
   left: 50%;
   width: 24%;
 }
 
 .position-4 {
   position: absolute;
-  top: 42%;
+  top: 38%;
   left: 75%;
   width: 24%;
 }
@@ -348,38 +348,10 @@ footer {
 }
 
 /* Media Queries for Responsive Design on Section for figure with images */
-
-@media (max-width: 1200px) {
+/* Small Laptop Screen */
+@media (max-width: 1024px) {
   .figure-with-images p {
     font-size: 0.3rem;
-  }
-
-  .position-1 {
-    position: absolute;
-    top: 42%;
-    left: 2%;
-    width: 24%;
-  }
-
-  .position-2 {
-    position: absolute;
-    top: 42%;
-    left: 26%;
-    width: 24%;
-  }
-
-  .position-3 {
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    width: 24%;
-  }
-
-  .position-4 {
-    position: absolute;
-    top: 42%;
-    left: 75%;
-    width: 24%;
   }
 }
 
@@ -387,66 +359,11 @@ footer {
   .figure-with-images p {
     font-size: 0.2rem;
   }
-
-  .position-1 {
-    position: absolute;
-    top: 42%;
-    left: 2%;
-    width: 24%;
-  }
-
-  .position-2 {
-    position: absolute;
-    top: 42%;
-    left: 26%;
-    width: 24%;
-  }
-
-  .position-3 {
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    width: 24%;
-  }
-
-  .position-4 {
-    position: absolute;
-    top: 42%;
-    left: 75%;
-    width: 24%;
-  }
 }
 
-@media (max-width: 700px) {
+/* Tablet Screen */
+@media (max-width: 768px) {
   .figure-with-images p {
     font-size: 0.1rem;
-  }
-
-  .position-1 {
-    position: absolute;
-    top: 42%;
-    left: 2%;
-    width: 24%;
-  }
-
-  .position-2 {
-    position: absolute;
-    top: 42%;
-    left: 26%;
-    width: 24%;
-  }
-
-  .position-3 {
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    width: 24%;
-  }
-
-  .position-4 {
-    position: absolute;
-    top: 42%;
-    left: 75%;
-    width: 24%;
   }
 }
