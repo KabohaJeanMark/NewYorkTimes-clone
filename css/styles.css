@@ -23,7 +23,7 @@ nav {
   background-color: #fff;
 }
 
-nav button {
+button {
   background-color: rgb(21, 113, 136);
   color: #fff;
   border-radius: 0.2rem;
@@ -159,6 +159,13 @@ article {
 iframe {
   margin: 0 auto;
   border: 0;
+}
+
+/* Form styling */
+.comment-section {
+  display: flex;
+  margin: 1.4rem auto;
+  justify-content: center;
 }
 
 /* Suggested newsletter section */
