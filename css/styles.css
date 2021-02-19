@@ -168,6 +168,62 @@ iframe {
   justify-content: center;
 }
 
+#comment-link {
+  background-color: rgb(21, 113, 136);
+  color: #fff;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+
+#comment-form:target {
+  display: block !important;
+}
+
+form {
+  display: none; /* initially hides comment form */
+  margin: 1.2rem auto;
+  max-width: 60%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 1.2rem;
+}
+
+form ul {
+  list-style: none;
+}
+
+form li {
+  margin: 0.5rem 0;
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+  width: 20%;
+}
+
+textarea {
+  height: 20vh;
+  vertical-align: top;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 60%;
+  font-family: 'Lato', sans-serif;
+  border: 1px solid rgb(128, 128, 128);
+}
+
+input:focus,
+textarea:focus {
+  background-color: rgb(217, 230, 230);
+}
+
+form button {
+  margin-left: 26%;
+}
+
 /* Suggested newsletter section */
 
 .float-container {
