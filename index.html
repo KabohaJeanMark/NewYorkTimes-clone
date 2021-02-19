@@ -151,7 +151,42 @@
                     </article>
                     <div class="comment-section">
                         <button type="submit" class="coment-btn">POST YOUR COMMENT</button>
-
+                        
+                    </div>
+                    <div id="comment-form">
+                        <form action="#" method="POST">
+                            <ul>
+                                <li>
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" placeholder="user's name">
+                                </li>
+                                <li>
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" placeholder="you@gmail.com">
+                                </li>
+                                <li>
+                                    <label for="comment">Comment</label>
+                                    <textarea name="comment" id="comment" placeholder="Type your comment here..."></textarea>
+                                </li>
+                                <li>
+                                    <p>What is your overall opinion about this article?</p>
+                                    <label for="positive">Positive</label>
+                                    <input type="radio" id="positive" name="opinion" checked>
+                                    <label for="negative">Negative</label>
+                                    <input type="radio" id="negative" name="opinion">
+                                    <label for="neutral">Neutral</label>
+                                    <input type="radio" id="neutral" name="opinion">
+                                </li>
+                                <li>
+                                    <p>I want to subscribe to the newsletter</p>
+                                    <label for="subscribe">Yes</label>
+                                    <input type="checkbox" name="subscribe-newsletter" id="subscribe" checked>
+                                    <label for="unsubscribe">No</label>
+                                    <input type="checkbox" name="subscribe-newsletter" id="unsubscribe">
+                                </li>
+                            </ul>
+                            <button type="submit">Send</button>
+                        </form>
                     </div>
                 </div>
                 <div class="float-container">
