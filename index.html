@@ -149,6 +149,44 @@
                         <p>We might never know what happened before inflation, at the very beginning, because inflation erases everything that came before it. All the chaos and randomness of the primordial moment are swept away, forever out of our view.</p>
                         <p>“If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not part of the team, “you wind up at inflation.”</p>
                     </article>
+                    <div class="comment-section">
+                        <a href="#comment-form" id="comment-link">POST YOUR COMMENT</a>
+                    </div>
+                    <div>
+                        <form action="#" method="POST" id="comment-form">
+                            <ul>
+                                <li>
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" maxlength="20" required>
+                                </li>
+                                <li>
+                                    <label for="email">E-mail</label>
+                                    <input type="email" id="email" maxlength="20" required>
+                                </li>
+                                <li>
+                                    <label for="comment">Comment</label>
+                                    <textarea name="comment" id="comment" placeholder="Type your comment here..." maxlength="250" required></textarea>
+                                </li>
+                                <li>
+                                    <p>What is your overall opinion about this article?</p>
+                                    <label for="positive">Positive</label>
+                                    <input type="radio" id="positive" name="opinion" checked>
+                                    <label for="negative">Negative</label>
+                                    <input type="radio" id="negative" name="opinion">
+                                    <label for="neutral">Neutral</label>
+                                    <input type="radio" id="neutral" name="opinion">
+                                </li>
+                                <li>
+                                    <p>I want to subscribe to the newsletter</p>
+                                    <label for="subscribe">Yes</label>
+                                    <input type="checkbox" name="subscribe-newsletter" id="subscribe" checked>
+                                    <label for="unsubscribe">No</label>
+                                    <input type="checkbox" name="subscribe-newsletter" id="unsubscribe">
+                                </li>
+                            </ul>
+                            <button type="submit">SEND</button>
+                        </form>
+                    </div>
                 </div>
                 <div class="float-container">
                     <div class="newsletter-float">
@@ -345,7 +383,7 @@
 
                     <div class="flex-vertically subscribe">
                         <div class="subscribe-1">
-                            <a href="#" class=" footer-heading">SUBSCRIBE</a>
+                            <a href="#comment-form" class="footer-heading">SUBSCRIBE</a>
                             <a href="#" ><i class="fas fa-shipping-fast"></i>Home Delivery</a>
                             <a href="#" >Digital Subscriptions</a>
                             <a href="#" ><i class="fas fa-dice-two"></i>Games</a> <br/>
